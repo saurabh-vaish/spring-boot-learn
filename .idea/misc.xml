@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springBootFirstApp/pom.xml" />
+        <option value="$PROJECT_DIR$/sB2AutoConfiguration/pom.xml" />
       </list>
     </option>
   </component>
