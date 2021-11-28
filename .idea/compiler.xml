@@ -7,15 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sB2AutoConfiguration" />
+        <module name="first-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="first-app" target="17" />
       <module name="sB1FirstApp" target="17" />
       <module name="sB2AutoConfiguration" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="first-app" options="-parameters" />
       <module name="sB1FirstApp" options="-parameters" />
       <module name="sB2AutoConfiguration" options="-parameters" />
     </option>
