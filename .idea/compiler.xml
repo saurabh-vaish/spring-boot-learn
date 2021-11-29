@@ -2,18 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sB2AutoConfiguration" />
         <module name="first-app" />
+        <module name="sB3AutoConfigurationLayredApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="first-app" target="17" />
       <module name="sB1FirstApp" target="17" />
       <module name="sB2AutoConfiguration" target="17" />
+      <module name="sB3AutoConfigurationLayredApp" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -21,6 +24,7 @@
       <module name="first-app" options="-parameters" />
       <module name="sB1FirstApp" options="-parameters" />
       <module name="sB2AutoConfiguration" options="-parameters" />
+      <module name="sB3AutoConfigurationLayredApp" options="-parameters" />
     </option>
   </component>
 </project>

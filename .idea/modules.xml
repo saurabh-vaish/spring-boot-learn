@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sB1FirstApp/first-app.iml" filepath="$PROJECT_DIR$/sB1FirstApp/first-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/sB2AutoConfiguration/sB2AutoConfiguration.iml" filepath="$PROJECT_DIR$/sB2AutoConfiguration/sB2AutoConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sB3AutoConfigurationLayredApp/sB3AutoConfigurationLayredApp.iml" filepath="$PROJECT_DIR$/sB3AutoConfigurationLayredApp/sB3AutoConfigurationLayredApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-learn.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-learn.iml" />
     </modules>
   </component>
