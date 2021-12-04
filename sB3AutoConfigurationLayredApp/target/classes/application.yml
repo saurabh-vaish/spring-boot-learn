@@ -1,0 +1,10 @@
+#db properties
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testdb
+    username: postgres
+    password: thrymr@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

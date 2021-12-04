@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sB3AutoConfigurationLayredApp" />
+        <module name="sB5ValueAndConfigurationProperties" />
         <module name="sB2AutoConfiguration" />
         <module name="first-app" />
-        <module name="sB3AutoConfigurationLayredApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="sB1FirstApp" target="17" />
       <module name="sB2AutoConfiguration" target="17" />
       <module name="sB3AutoConfigurationLayredApp" target="17" />
+      <module name="sB5ValueAndConfigurationProperties" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +27,7 @@
       <module name="sB1FirstApp" options="-parameters" />
       <module name="sB2AutoConfiguration" options="-parameters" />
       <module name="sB3AutoConfigurationLayredApp" options="-parameters" />
+      <module name="sB5ValueAndConfigurationProperties" options="-parameters" />
     </option>
   </component>
 </project>
